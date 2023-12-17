@@ -1,34 +1,45 @@
-import React ,{Component}from "react";
-// import { useState } from 'react';
+import React, { Component } from 'react';
 import './CSS/header.css'
-import './JS/main.js'
 
-class Home extends Component{
-    handleClick = () => {
-        document.getElementById("menu-bar").classList.toggle("change");
-        document.getElementById("nav").classList.toggle("change");
-        document.getElementById("menu-bg").classList.toggle("change-bg");
-      }
-render(){
-    return  <div>
-        <div id="menu">
-<div id="menu-bar"  onClick={this.handleClick}>
-  <div id="bar1" class="bar"></div>
-  <div id="bar2" class="bar"></div>
-  <div id="bar3" class="bar"></div>
-</div>
-{/* <nav class="nav" id="nav">
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Blog</a></li>
-  </ul>
-</nav>  */}
-</div>
-<div class="menu-bg" id="menu-bg"></div>
-    </div>
-  
+class Header extends Component {
+ 
+
+  render() {
+    return (
+     <header>
+      
+     <div id="main">
+	
+		<div class="mainmenu-area show">
+			<nav class="my-navbar show">
+				<ul class="navbar-links">
+					<li class="mynav-item active">
+						<a class="mynav-link active" href="#home">Home</a>
+					</li>
+					<li class="mynav-item">
+						<a class="mynav-link" href="#about">About</a>
+					</li>
+					<li class="mynav-item">
+						<a class="mynav-link" href="#resume">Resume</a>
+					</li>
+					<li class="mynav-item portfolio">
+						<a class="mynav-link portfolio" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="mynav-item">
+						<a class="mynav-link" href="#blog">Blog</a>
+					</li>
+					<li class="mynav-item">
+						<a class="mynav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		</div>
+</header>
+		
+	
+    );
+  }
 }
-}
-export default Home
+
+export default Header;
