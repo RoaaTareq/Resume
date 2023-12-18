@@ -1,78 +1,10 @@
-/*============================================
-Template Name:  Icard - Personal Portfolio
-Author: GeniusDevs.
-Version: 1.0
 
-
-===========================
-Table of Css Content 
-===========================*/
-/* Typography */
-/* Normalize  */
-/* Global style */
-/* Main Menu Area Start */
-/* Hero Area Start */
-/* About Area Start */
-/* Skill Area Start */
-/* Blog Area Start */
-/* Blog details Area Start */
-/* Portfolio Start */
-/* Portfolio Detagils Area Start */
-/* CONTACT INFO AREA Start */
-/* SECTION TITLE Start */
-
-/* 
-=========================
-
-=============================
- */
 /* Typography */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap");
 
-/* Normalize  */
-html {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  overflow-x: hidden;
-}
 
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  margin: 0;
-  color: #71768e;
-  overflow-x: hidden;
-  background-color: #171C32;
-}
 
-body.modal-open {
-  padding-right: 0px !important;
-}
 
-h1 {
-  font-size: 60px;
-  line-height: 1.0833333333333333;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 52px;
-  line-height: 1.4444444444444444;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 26px;
-  line-height: 1.0833333333333333;
-  text-transform: uppercase;
-}
-
-h4 {
-  font-size: 22px;
-  line-height: 1.2380952380952381;
-  text-transform: uppercase;
-}
 
 h1,
 h2,

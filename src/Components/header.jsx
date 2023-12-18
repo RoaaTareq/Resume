@@ -25,12 +25,8 @@ class Header extends Component {
 					<li class="mynav-item portfolio">
 						<a class="mynav-link portfolio" href="#portfolio">Portfolio</a>
 					</li>
-					<li class="mynav-item">
-						<a class="mynav-link" href="#blog">Blog</a>
-					</li>
-					<li class="mynav-item">
-						<a class="mynav-link" href="#contact">Contact</a>
-					</li>
+					
+					
 				</ul>
 			</nav>
 		</div>

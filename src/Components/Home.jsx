@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header'
+import Topsection from './Topsection'
 
 class Home extends Component {
  
@@ -8,6 +9,7 @@ class Home extends Component {
     return (
     <div>
         <Header></Header>
+        <Topsection></Topsection>
     </div>
     );
   }
